@@ -13,7 +13,7 @@ export const Navbar = () => {
       <nav className="mb-20">
         <div className="max-w-screen-xl px-4 py-3 mx-auto">
           <div className="flex items-center">
-            <ul className="flex flex-row text-lg mt-0 mr-6 space-x-8 text-sm">
+            <ul className="flex flex-row text-lg mt-0 mr-6 space-x-8">
               <li>
                 <Link href="/" className="hover:underline" aria-current="page">Home</Link>
               </li>
