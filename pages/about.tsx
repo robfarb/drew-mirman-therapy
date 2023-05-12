@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import {Inter} from 'next/font/google'
-import {Navbar} from '../components/Navbar'
+import {Navbar} from '@/components/Navbar';
 
 const inter = Inter({subsets: ['latin']})
 
@@ -11,6 +11,7 @@ export default function Home() {
     >
       <Navbar/>
       <div className="relative flex flex-col place-items-center">
+        <h2 className="center mb-10 text-xl">Coming Soon!</h2>
         <Image
           className="home-logo"
           src="/logo.png"
@@ -19,8 +20,6 @@ export default function Home() {
           height={37}
           priority
         />
-        <h2 className="center mt-10 text-xl">Drew Mirman Therapy, AMFT</h2>
-        <h2 className="center mt-10 text-lg">Coming soon</h2>
       </div>
     </main>
   )
