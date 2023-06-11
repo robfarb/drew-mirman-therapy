@@ -1,16 +1,13 @@
 import Image from 'next/image'
-import {Inter} from 'next/font/google'
 import {Navbar} from '../components/Navbar'
-
-const inter = Inter({subsets: ['latin']})
 
 export default function Home() {
   return (
-    <main
-      className={`flex flex-col items-center justify-between p-24 ${inter.className}`}
+    <div
+      className='flex flex-col items-center justify-between p-12 h-screen font-montserrat'
     >
       <Navbar/>
-      <div className="relative flex flex-col place-items-center">
+      <div className="relative flex flex-col items-center justify-center h-full mx-auto">
         <Image
           className="home-logo"
           src="/logo.png"
@@ -19,9 +16,9 @@ export default function Home() {
           height={37}
           priority
         />
-        <h2 className="center mt-10 text-xl">Drew Mirman Therapy, AMFT</h2>
-        <h2 className="center mt-10 text-lg">Coming soon</h2>
+        <h2 className="tracking-wide center mt-10 text-3xl font-alegreya uppercase text-brown-50">Drew Mirman</h2>
+        <p className="tracking-wide uppercase font-montserrat">m.s., amft</p>
       </div>
-    </main>
+    </div>
   )
 }

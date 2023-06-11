@@ -12,6 +12,15 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        alegreya: ['var(--font-alegreya)'],
+        montserrat: ['var(--font-montserrat)'],
+      },
+      colors: {
+        brown: {
+          50: '#4b4127',
+        }
+      }
     },
   },
   plugins: [],

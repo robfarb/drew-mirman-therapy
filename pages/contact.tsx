@@ -1,17 +1,14 @@
 import Image from 'next/image'
-import {Inter} from 'next/font/google'
 import {Navbar} from '@/components/Navbar';
-
-const inter = Inter({subsets: ['latin']})
 
 export default function Home() {
   return (
-    <main
-      className={`flex flex-col items-center justify-between p-24 ${inter.className}`}
+    <div
+      className='flex flex-col items-center p-12 h-screen'
     >
       <Navbar/>
-      <div className="relative flex flex-col place-items-center">
-        <h2 className="center mb-10 text-xl">Coming Soon!</h2>
+      <div className="relative flex flex-col justify-center align-center h-screen">
+        <h2 className="center mb-10 text-xl text-center">Coming Soon!</h2>
         <Image
           className="home-logo"
           src="/logo.png"
@@ -21,6 +18,6 @@ export default function Home() {
           priority
         />
       </div>
-    </main>
+    </div>
   )
 }
