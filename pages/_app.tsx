@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 
 export default function App({Component, pageProps}: AppProps) {
   return (
-    <main className={`${alegreya.variable} ${montserrat.variable} h-screen`}>
+    <main className={`${alegreya.variable} ${montserrat.variable} h-screen container mx-auto`}>
       <Component {...pageProps} />
     </main>
   );
