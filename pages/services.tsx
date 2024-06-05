@@ -15,7 +15,7 @@ export default function Home() {
         Beit T’Shuvah- a residential addiction treatment center. My time there focused on facilitating individual,
         group, and family therapy.
       </p>
-      <div className="flex-col text-center p-2 xl:p-12 xl:columns-2 xl:text-left">
+      <div className="flex-col text-center p-2">
         <div className='w-full mx-auto xl:mr-12'>
           <Image
             src='/drew-mirman-headshot.webp'
@@ -26,6 +26,7 @@ export default function Home() {
           />
         </div>
         <div className='font-montserrat w-full xl:ml-12'>
+          <h2 className='text-xl font-semibold mt-10'>Therapy for Adults</h2>
           <p className='my-8'>
             Therapy can be daunting for some and feel like home for others. My goal of working with you is to meet you
             where you are at, and foster an environment of warmth, safety, and understanding that enables us to grow
@@ -40,6 +41,27 @@ export default function Home() {
             Each individual I work with has their own story, experiences, and worldview. I encourage you to come into my
             office just as you are, as your story is what makes you uniquely you. Using an individualized and
             integrative approach, I look forward to supporting you in reconnecting to your authentic self.
+          </p>
+        </div>
+        <div className='font-montserrat w-full xl:ml-12'>
+          <h2 className='text-xl font-semibold mt-10'>Therapy for Adolescents</h2>
+          <p className='my-8'>
+            Adolescent years can bring up a myriad of thoughts, feelings, and behaviors due to navigating the ongoing
+            emotional, relational, and physical changes. For some adolescents it may feel challenging to open up to
+            trusted adults and friends, which is when an individualized space can help provide teens with an opportunity
+            to name and explore what struggles they may be facing.
+          </p>
+          <p className='my-8'>
+            My experience with teens primarily focuses on anxiety, depression, low self-esteem, body-image, sexuality,
+            perfectionism, and relational difficulties. With curiosity, authenticity, and empathy, my goal is to create
+            a safe and trusting relationship with adolescents so that they gain a deeper understanding of themselves,
+            the world around them, and their ability to cope with the pressures they face.
+          </p>
+          <p className='my-8'>
+            In addition to supporting adolescents, I also provide parenting sessions as I recognize adolescence can be a
+            challenge for parents to navigate as well. In our sessions together, you can expect us to focus on exploring
+            the relationship between you and your child while also providing you with tools to best manage and nurture
+            this relationship.
           </p>
         </div>
       </div>
