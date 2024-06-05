@@ -11,7 +11,7 @@ export const Navbar = () => (
               <Link href="/" className="hover:underline" aria-current="page">Home</Link>
             </li>
             <li>
-              <Link href="/about" className="hover:underline">About</Link>
+              <Link href="/services" className="hover:underline">Services</Link>
             </li>
             <li>
               <Link href="/contact" className="hover:underline">Contact</Link>
